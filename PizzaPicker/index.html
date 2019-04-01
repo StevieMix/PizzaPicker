@@ -38,7 +38,7 @@
                 <input class="veg" type="checkbox" value="onions">Red Onions</label>
 
                 <label>
-                <input class="veg" type="checkbox" value="tomatoes">Sun Dried Tomatoes</label>
+                <input class="veg" type="checkbox" value="cilantro">Cilantro</label>
               </label>
             </div>
 
@@ -47,3 +47,91 @@
             <h4>Carne Toppings</h4>
 
               <div class="checkbox">
+                <label>
+                  <input class="meat" type="checkbox" value="pepperoni">Pepperoni
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="sausage">Sausage
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="salami">Salami
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="ham">Smoked Ham
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="bacon">Pepper Bacon
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="chicken">BBQ Chicken
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="fish">Sardines
+                </label>
+
+              </div>
+
+              <h4>Say Cheese!</h4>
+
+            <div class="checkbox">
+              <label>
+                <input class="cheese" type="checkbox" value="Mozzarella">Buffalo Mozzarella</label>
+
+                <label>
+                <input class="cheese" type="checkbox" value="Feta">Greek Feta</label>
+
+                <label>
+                <input class="cheese" type="checkbox" value="Gouda">Smoked Gouda</label>
+
+                <label>
+                <input class="cheese" type="checkbox" value="4 Cheese">Quatro Formagio</label>
+
+                <label>
+                <input class="cheese" type="checkbox" value="Goat Cheese">Goat Cheese</label>
+
+                <label>
+                <input class="cheese" type="checkbox" value="Head Cheese">Head Cheese</label>
+
+              </label>
+            </div>
+
+            <br>
+
+            <h4>Choose size</h4>
+
+            <div class="form-group">
+              <select class="form-control" id="size" placeholder ="small, medium"required >
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="x-large">Extra Large</option>
+              </select>
+            </div>
+
+            <br>
+            <h4>Enter quantity</h4>
+
+            <div class ="form-group">
+              <input type="number" class="form-control" id="quantity" placeholder="Enter a number" required>
+            </div>
+            <br>
+
+            <button type="submit" class="btn btn-success">Calculate Price</button>
+          </form>
+
+          <div id="result">
+            <h2>Total $<span id="price"></span></h2>
+          </div>
+
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+  </body>
+</html>
